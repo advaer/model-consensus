@@ -1,6 +1,6 @@
 import logging
 
-from app.shared import settings
+from app.core import settings
 
 
 def get_logger(logger_name=settings.app_name):
